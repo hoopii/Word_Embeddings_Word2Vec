@@ -14,21 +14,15 @@ Employ Word2Vec on job postings to get get the skills that are most associated w
 
 # Skills/Methods
 - Apply basic NLP preprocessing steps that essential for processing data in Word2Vec using spacy and Phraser by gesim 
-  - Lemmatize words
-  - Remove stop words
-  - Remove non alphabetic characters
-  - decapitalize all the words
 - Add Bigrams using Phraser by gensim basically to get connected words like "data_scientist" or "data_analyst" 
-- Use scikit-learn Pipelines 
-- Use GridSearch in combination with cross validation for model tuning
-- Implementation with scikit-learn
-- Deploy classification performance metrics for classification task
-- explore feature selection techniques and dimensionality reduction with PCA
-- first deployment wit streamlit  
+- Generate Word2Vec embeddings 
+- Apply similarity functions of the word2vec
+- Use visualization techniques for word embeddings
+
 
 ## Basic Steps in this Project: 
 1. Explore & clean the data 
-2. Apply basic NLP preprocessing steps that essential for processing data in Word2Vec using spacy and Phraser by gesim 
+2. Apply basic NLP preprocessing techniques essential for processing data in Word2Vec using spacy and Phraser by gesim 
   - Lemmatize the tokens to reduce the different forms of a word to one single form (Example: reducing "builds", "building",or "built" to the lemma "build")
   - Remove stop words / common words that have mainly relational meaning (Example: “a”, “there”, “is”, “are” “really”, “nothing”, “towards” etc.)
   - Remove non alphabetic characters
