@@ -1,5 +1,5 @@
 # Employ Word Embeddings with Word2Vec
-### Employ word embeddings on job postings to extract most wanted skills for data scientists, data analyssts and business analysts
+### Employ word embeddings on job postings to extract most wanted skills for data scientists, data analysts and business analysts
 
 ![grafik](../main/picture_repository.png)
 
@@ -60,6 +60,4 @@ For business analysts the skill to handle specific analytic tools like SAP and s
 
 
 ## Files in this repository
-- [Description of the features](../main/data_description.txt)
-- [Notebook for classification task: Predicting if house is expensive or not](../main/housing_prices_model_classification.ipynb)      
-- [Notebook for regression task](../main/housing_prices_model_regression.ipynb)  
+- [Main Notebook for this project](../main/Word_Embeddings_job_skillset.ipynb)
