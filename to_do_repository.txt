@@ -1,2 +1,3 @@
 to do repository: 
-- Run the code again on better dataset
+- run the code again on better dataset
+- This project needs further work to get good results.
